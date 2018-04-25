@@ -1,0 +1,127 @@
+@import 'colores';
+
+header{
+    background-image: url('../img/bcard_reconocimientos.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    & h1{
+        color: $white;
+        text-shadow: 4px 5px 5px rgba(37, 37, 37, 0.5490196078431373);
+        text-align: center;
+        font-weight: bold;
+        padding: 2em 0em 1em !important;
+        margin: 0em;
+    }
+}
+.perfil-tag{
+    color: $gray;
+    margin: 0em !important;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    &.educacion{
+        background-color: $gold;
+        & .perfil-icon{
+            background-color: $darkGold;
+        }
+    }
+    & .perfil-titulo{
+        font-size: 1em;
+        padding: 0em 1.8em !important;
+        font-weight: bold;
+        vertical-align: text-top;
+    }
+    & .perfil-icon{
+        font-size: 1em;
+        width: 45px;
+        height: 45px;
+        padding: .4em;
+    }
+}
+
+.timeline-item{
+    background: rgba(248, 249, 251, 0.6);
+    margin: 1em .5em !important;
+    padding: 20px !important;
+    position: relative;
+    border: 1px solid #DBDBE0;
+    & .timeline_escuela, .timeline_trabajo, .timeline_ciudad{
+        text-transform: $upper;
+        float: left;
+        margin-bottom: 5px;
+        font-size: 1em;
+        font-weight: 600;
+        color: $darkGold;
+        padding: 0;
+        width: 100%;
+    }
+    & .timeline_trabajo{
+        color: #b1cd00;
+    }
+    & .timeline_titulo{
+        font-size: .8em;
+        text-transform: $upper;
+    }
+    & .timeline_descripcion{
+        padding: 1em 0em;
+        font-size: 1em;
+    }
+    & .timeline_ciudad{
+        font-size: .9em;
+        text-transform: $upper;
+    }
+}
+
+
+.timeline-item{
+    background: rgba(248, 249, 251, 0.6);
+    margin: 1em .5em !important;
+    padding: 20px !important;
+    position: relative;
+    border: 1px solid #DBDBE0;
+    & .timeline_escuela, .timeline_trabajo, .timeline_ciudad{
+        text-transform: $upper;
+        float: left;
+        margin-bottom: 5px;
+        font-size: 1em;
+        font-weight: 600;
+        color: $darkGold;
+        padding: 0;
+        width: 100%;
+    }
+    & .timeline_titulo{
+        font-size: .8em;
+        text-transform: $upper;
+    }
+    & .timeline_descripcion{
+        padding: 1em 0em;
+        font-size: 1em;
+    }
+    & .timeline_ciudad{
+        font-size: .9em;
+        text-transform: $upper;
+    }
+}
+//Listas
+ul{
+    &.lista_gold{
+        list-style-type: none;
+        & li{
+            position: relative;
+            margin-bottom: 5px;
+            &:before{
+                content: '';
+                border-radius: 100%;
+                background-color: $darkGold;
+                width: 6px;
+                height: 6px;
+                position: absolute;
+                left: -1em;
+                top: 6px;
+                display: block;
+            }
+        }
+    }
+}

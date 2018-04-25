@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans:300,400,700");
+* {
+  margin-right: 0px !important;
+  margin-left: 0px !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: 'Fira Sans', sans-serif; }
+
+main {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+header.menu {
+  width: 100%;
+  height: 60px;
+  background: #a00d3a;
+  position: fixed;
+  z-index: 2; }
+  header.menu span {
+    font-size: 30px;
+    padding: 10px !important;
+    color: #FFFFFF;
+    -webkit-transition: all 300ms;
+    transition: all 300ms;
+    cursor: pointer;
+    position: relative;
+    top: 15px;
+    left: 15px; }
+    header.menu span:hover {
+      background: rgba(0, 0, 0, 0.4);
+      border-radius: 10px; }
+
+.content-menu {
+  margin-top: 60px;
+  width: 90px;
+  background: #33373D;
+  -webkit-transition: all 300ms;
+  transition: all 300ms;
+  position: fixed;
+  z-index: 3;
+  height: 100vh;
+  -webkit-transform: translateX(-90px);
+  transform: translateX(-90px); }
+  .content-menu:hover .text1 {
+    -webkit-transform: translateX(0px);
+    transform: translateX(0px);
+    -webkit-transition: all 100ms;
+    transition: all 100ms; }
+  .content-menu:hover .text2 {
+    -webkit-transform: translateX(0px);
+    transform: translateX(0px);
+    -webkit-transition: all 200ms;
+    transition: all 200ms; }
+  .content-menu:hover .text3 {
+    -webkit-transform: translateX(0px);
+    transform: translateX(0px);
+    -webkit-transition: all 300ms;
+    transition: all 300ms; }
+  .content-menu:hover .text4 {
+    -webkit-transform: translateX(0px);
+    transform: translateX(0px);
+    -webkit-transition: all 400ms;
+    transition: all 400ms; }
+  .content-menu:hover .text5 {
+    -webkit-transform: translateX(0px);
+    transform: translateX(0px);
+    -webkit-transition: all 500ms;
+    transition: all 500ms; }
+  .content-menu:hover .text6 {
+    -webkit-transform: translateX(0px);
+    transform: translateX(0px);
+    -webkit-transition: all 600ms;
+    transition: all 600ms; }
+  .content-menu li {
+    list-style: none;
+    text-align: center;
+    padding: 20px;
+    color: #FFFFFF;
+    -webkit-transition: all 300ms;
+    transition: all 300ms;
+    cursor: pointer; }
+    .content-menu li:hover {
+      -webkit-transform: translateY(10px);
+      transform: translateY(10px);
+      background: rgba(0, 0, 0, 0.5); }
+    .content-menu li span {
+      font-size: 30px; }
+      .content-menu li span.iconhome {
+        color: #ba7404; }
+      .content-menu li span.iconuser {
+        color: #1bbfb2; }
+      .content-menu li span.iconbrief {
+        color: #a319a4; }
+      .content-menu li span.iconstar {
+        color: #f0a503; }
+      .content-menu li span.iconbubble {
+        color: #8646f5; }
+      .content-menu li span.iconlink {
+        color: #16d0ff; }
+    .content-menu li h4 {
+      color: #FFFFFF !important;
+      font-weight: 100;
+      font-size: .7em;
+      -webkit-transform: translateY(18px) translateX(-160px);
+      transform: translateY(18px) translateX(-160px);
+      -webkit-transition: all 300ms;
+      transition: all 300ms; }
+
+.content-menu__2 {
+  -webkit-transform: translateX(0px);
+  transform: translateX(0px); }
+
+.contenedor {
+  padding: 0px 60px;
+  width: 100%; }
+  .contenedor h1 {
+    font-size: 40px;
+    text-align: center; }
+  .contenedor p {
+    font-size: 1em;
+    margin-top: 20px;
+    padding: 0em  .5em !important; }

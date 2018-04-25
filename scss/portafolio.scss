@@ -1,0 +1,50 @@
+@import 'colores';
+
+header{
+    background-image: url('../img/bcard_portafolio.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    & h1{
+        color: $white;
+        text-shadow: 4px 5px 5px rgba(37, 37, 37, 0.5490196078431373);
+        text-align: center;
+        font-weight: bold;
+        padding: 2em 0em 1em !important;
+        margin: 0em;
+    }
+}
+figure{
+    margin: 1em 0em;
+}
+.portafolio-servicios{
+    & .portafolio-servicios_titulo{
+        text-transform: $upper;
+        font-size: 1.5em;
+        text-align: center;
+        background-color: #a319a4;
+        padding: .5em 0em;
+        margin: 0em;
+        color: $white;
+    }
+    & .timeline-item{
+        background: rgba(248, 249, 251, 0.6);
+        margin: 1em .5em !important;
+        padding: 20px !important;
+        position: relative;
+        border: 1px solid #DBDBE0;
+    } 
+}
+a, button{
+    &.btn{
+        padding: .8em 0em;
+        margin: 0em 1em !important;
+        width: 92%;
+    }
+    &.botones{
+        letter-spacing: .11em;
+        font-size: $text;
+        font-weight: bold;
+    }
+
+} 

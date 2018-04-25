@@ -1,0 +1,22 @@
+{
+  "name": "bcardcomercial",
+  "version": "1.0.0",
+  "description": "diseño front end de la bcard comercial del proyecto",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "@JorgeGaitanH",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.23.6",
+    "gulp": "^3.9.1",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "gulp-autoprefixer": "^4.1.0"
+  }
+}
