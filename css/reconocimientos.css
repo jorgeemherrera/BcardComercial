@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans:300,400,700");
+* {
+  margin-right: 0px !important;
+  margin-left: 0px !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: 'Fira Sans', sans-serif; }
+
+header {
+  background-image: url("../img/bcard_reconocimientos.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+  header h1 {
+    color: #FFFFFF;
+    text-shadow: 4px 5px 5px rgba(37, 37, 37, 0.54902);
+    text-align: center;
+    font-weight: bold;
+    padding: 2em 0em 1em !important;
+    margin: 0em; }
+
+.perfil-tag {
+  color: #33373D;
+  margin: 0em !important;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%; }
+  .perfil-tag.educacion {
+    background-color: #ebb00e; }
+    .perfil-tag.educacion .perfil-icon {
+      background-color: #ce9702; }
+  .perfil-tag .perfil-titulo {
+    font-size: 1em;
+    padding: 0em 1.8em !important;
+    font-weight: bold;
+    vertical-align: text-top; }
+  .perfil-tag .perfil-icon {
+    font-size: 1em;
+    width: 45px;
+    height: 45px;
+    padding: .4em; }
+
+.timeline-item {
+  background: rgba(248, 249, 251, 0.6);
+  margin: 1em .5em !important;
+  padding: 20px !important;
+  position: relative;
+  border: 1px solid #DBDBE0; }
+  .timeline-item .timeline_escuela, .timeline-item .timeline_trabajo, .timeline-item .timeline_ciudad {
+    text-transform: uppercase;
+    float: left;
+    margin-bottom: 5px;
+    font-size: 1em;
+    font-weight: 600;
+    color: #ce9702;
+    padding: 0;
+    width: 100%; }
+  .timeline-item .timeline_trabajo {
+    color: #b1cd00; }
+  .timeline-item .timeline_titulo {
+    font-size: .8em;
+    text-transform: uppercase; }
+  .timeline-item .timeline_descripcion {
+    padding: 1em 0em;
+    font-size: 1em; }
+  .timeline-item .timeline_ciudad {
+    font-size: .9em;
+    text-transform: uppercase; }
+
+.timeline-item {
+  background: rgba(248, 249, 251, 0.6);
+  margin: 1em .5em !important;
+  padding: 20px !important;
+  position: relative;
+  border: 1px solid #DBDBE0; }
+  .timeline-item .timeline_escuela, .timeline-item .timeline_trabajo, .timeline-item .timeline_ciudad {
+    text-transform: uppercase;
+    float: left;
+    margin-bottom: 5px;
+    font-size: 1em;
+    font-weight: 600;
+    color: #ce9702;
+    padding: 0;
+    width: 100%; }
+  .timeline-item .timeline_titulo {
+    font-size: .8em;
+    text-transform: uppercase; }
+  .timeline-item .timeline_descripcion {
+    padding: 1em 0em;
+    font-size: 1em; }
+  .timeline-item .timeline_ciudad {
+    font-size: .9em;
+    text-transform: uppercase; }
+
+ul.lista_gold {
+  list-style-type: none; }
+  ul.lista_gold li {
+    position: relative;
+    margin-bottom: 5px; }
+    ul.lista_gold li:before {
+      content: '';
+      border-radius: 100%;
+      background-color: #ce9702;
+      width: 6px;
+      height: 6px;
+      position: absolute;
+      left: -1em;
+      top: 6px;
+      display: block; }

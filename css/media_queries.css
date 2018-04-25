@@ -1,0 +1,44 @@
+@media screen and (height: 560px) {
+  .content-menu li {
+    padding: 11px; } }
+
+@media screen and (height: 638px) {
+  .content-menu li {
+    padding: 15px; } }
+
+@media screen and (min-width: 1280px) {
+  .header-logo img {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    width: 15%; }
+  .foto_persona {
+    width: 50%;
+    margin-left: 45em !important; }
+  .foto_logo {
+    width: 25%;
+    margin: 0% 90% !important; }
+  #perfil-descripcion .perfil-descripcion_firma {
+    width: 25%; }
+  a.btn {
+    width: 97%; }
+  .footer-logo img {
+    width: 10%; }
+  figure {
+    width: 50%;
+    margin: 0 auto !important; } }
+
+@media screen and (width: 1920px) {
+  #perfil-descripcion .perfil-descripcion_firma {
+    width: 15%; }
+  a.btn {
+    width: 98%; }
+  select {
+    width: 98%; }
+  .panel .panel-body a, .panel .panel-body span {
+    font-size: 1.2em; }
+  .panel .panel-body span {
+    font-size: 1.3em; }
+  .foto_persona {
+    width: 50%;
+    margin-left: 65em !important; } }
