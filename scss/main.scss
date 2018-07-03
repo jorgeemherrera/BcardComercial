@@ -18,16 +18,17 @@ body {
 .footer-logo{
     img{
         display: inline-block;
-        width: 30%;
+        width: 35%;
     }
     a{
         color: $white;
-        font-size: 1.5em;
-        text-shadow: -4px 0px 3px rgba(102, 28, 146, 0.8196078431372549);
+        font-size: 1.2em;
+        text-shadow: -4px 0px 3px rgba(21, 21, 22, 0.82);
         text-decoration: none;
+        vertical-align: middle;
     }
     margin-top: 1em;
-    background-color: $inst;
+    background-color: $gray;
     border-radius: 1em 1em 0em 0em;
     text-shadow: -3px -3px 12px 3px rgba(152, 152, 152, 0.819608);
 }
@@ -56,7 +57,7 @@ body {
                 text-align: center;
                 background: $gray;
                 color: #85878b;
-                font-size: 1.5em;
+                font-size: 10px;
                 text-transform: uppercase;
                 padding: 20px 0px;
                 transform: translateZ(0);
@@ -73,7 +74,8 @@ body {
                     display: flex;
                     justify-content: center;
                     align-items: center;
-                    font-size: 1.5em;
+                    font-size: 2.5em;
+                    padding-bottom: .5em;
                     &.iconhome{
                         color:#ba7404;
                     }
@@ -89,7 +91,7 @@ body {
                     &.iconbubble{
                         color:#8646f5;
                     }
-                    &.iconlink{
+                    &.lnr-exit-up{
                         color: #16d0ff;
                     }
                 }    
@@ -124,7 +126,7 @@ ul.list-redesSociales{
         margin-right: 12px !important;
         text-align: center;
         & a {
-            border: 2px solid;
+            // border: 2px solid;
             display: inline-block;
             height: 45px;
             width: 45px;
@@ -132,29 +134,42 @@ ul.list-redesSociales{
             padding: 9px 0px;
             font-size: 1.4em;
             margin: 1em 0em;
+            color: $white;
             & i{
                 line-height: 1em;
             }
             &.list-redesSociales_correo{
-                color: $redBcard;
+                background-color: $redBcard;
+                
             }
             &.list-redesSociales_fb{
-                color: $fb;
+                background-color: $fb;
             }
             &.list-redesSociales_tw{
-                color: $tw;
+                background-color: $tw;
             }
             &.list-redesSociales_inst{
-                color: $inst;
+                background-color: $inst;
             }
             &.list-redesSociales_in{
-                color: $in;
+                background-color: $in;
             }
             &.list-redesSociales_tel{
-                color: $whatsapp;
+                background-color: $whatsapp;
             }
         }
     }
+}
+.redes-flotantes{
+    padding: 1em;
+    background-color: $white;
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+    bottom: 0;
+}
+.espacio{
+    height: 191px;
 }
 #perfil-descripcion{
     box-shadow: 1px 1px 5px #ccc;
@@ -174,7 +189,7 @@ ul.list-redesSociales{
     font-size: $text;
     font-weight: bold;
     margin-bottom: 1em  !important;
-}
+    }
 }
 .panel{
     margin: 1em 1em !important;
@@ -239,10 +254,10 @@ a{
     }
     &.btn-whatsapp{
         background-color: $whatsapp;
-        color: $gray;
+        
         font-size: $text2;
         &:link{
-            color: $white;
+            color: $gray;
         }
     }
 }

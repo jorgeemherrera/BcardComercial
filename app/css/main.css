@@ -24,17 +24,18 @@ body {
 
 .footer-logo {
   margin-top: 1em;
-  background-color: #8a3ab9;
+  background-color: #33373D;
   border-radius: 1em 1em 0em 0em;
   text-shadow: -3px -3px 12px 3px rgba(152, 152, 152, 0.819608); }
   .footer-logo img {
     display: inline-block;
-    width: 30%; }
+    width: 35%; }
   .footer-logo a {
     color: #FFFFFF;
-    font-size: 1.5em;
-    text-shadow: -4px 0px 3px rgba(102, 28, 146, 0.819608);
-    text-decoration: none; }
+    font-size: 1.2em;
+    text-shadow: -4px 0px 3px rgba(21, 21, 22, 0.82);
+    text-decoration: none;
+    vertical-align: middle; }
 
 .header-wrap, ul.list-icon {
   display: -webkit-box;
@@ -63,7 +64,7 @@ body {
         text-align: center;
         background: #33373D;
         color: #85878b;
-        font-size: 1.5em;
+        font-size: 10px;
         text-transform: uppercase;
         padding: 20px 0px;
         -webkit-transform: translateZ(0);
@@ -90,7 +91,8 @@ body {
           -webkit-box-align: center;
           -ms-flex-align: center;
           align-items: center;
-          font-size: 1.5em; }
+          font-size: 2.5em;
+          padding-bottom: .5em; }
           .nav-main ul li a i.iconhome {
             color: #ba7404; }
           .nav-main ul li a i.iconuser {
@@ -101,7 +103,7 @@ body {
             color: #f0a503; }
           .nav-main ul li a i.iconbubble {
             color: #8646f5; }
-          .nav-main ul li a i.iconlink {
+          .nav-main ul li a i.lnr-exit-up {
             color: #16d0ff; }
 
 h1 {
@@ -136,28 +138,39 @@ ul.list-redesSociales {
     margin-right: 12px !important;
     text-align: center; }
     ul.list-redesSociales li a {
-      border: 2px solid;
       display: inline-block;
       height: 45px;
       width: 45px;
       border-radius: 50%;
       padding: 9px 0px;
       font-size: 1.4em;
-      margin: 1em 0em; }
+      margin: 1em 0em;
+      color: #FFFFFF; }
       ul.list-redesSociales li a i {
         line-height: 1em; }
       ul.list-redesSociales li a.list-redesSociales_correo {
-        color: #a00d3a; }
+        background-color: #a00d3a; }
       ul.list-redesSociales li a.list-redesSociales_fb {
-        color: #3b5998; }
+        background-color: #3b5998; }
       ul.list-redesSociales li a.list-redesSociales_tw {
-        color: #1da1f2; }
+        background-color: #1da1f2; }
       ul.list-redesSociales li a.list-redesSociales_inst {
-        color: #8a3ab9; }
+        background-color: #8a3ab9; }
       ul.list-redesSociales li a.list-redesSociales_in {
-        color: #0077B5; }
+        background-color: #0077B5; }
       ul.list-redesSociales li a.list-redesSociales_tel {
-        color: #25d366; }
+        background-color: #25d366; }
+
+.redes-flotantes {
+  padding: 1em;
+  background-color: #FFFFFF;
+  width: 100%;
+  position: fixed;
+  z-index: 2;
+  bottom: 0; }
+
+.espacio {
+  height: 191px; }
 
 #perfil-descripcion {
   -webkit-box-shadow: 1px 1px 5px #ccc;
@@ -242,7 +255,6 @@ a.btn {
 
 a.btn-whatsapp {
   background-color: #25d366;
-  color: #33373D;
   font-size: 1.2em; }
   a.btn-whatsapp:link {
-    color: #FFFFFF; }
+    color: #33373D; }
